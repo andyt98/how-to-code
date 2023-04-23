@@ -1,9 +1,13 @@
 # How to Code
 
-Link: https://www.edx.org/course/how-to-code-simple-data https://www.edx.org/course/how-to-code-complex-data                https://htdp.org/2022-8-7/Book/index.html
-Status: Completed
+Note: To run the code, open it with DrRacket
 
-[Design Recipes](media/Design%20Recipes%20258abca055214ca1958db4094b094232.md)
+Links:
+- https://www.edx.org/course/how-to-code-simple-data 
+- https://www.edx.org/course/how-to-code-complex-data
+- https://htdp.org/2022-8-7/Book/index.html
+
+[Design Recipes](media/Design-Recipes.md)
 
 ## **BSL**
 
