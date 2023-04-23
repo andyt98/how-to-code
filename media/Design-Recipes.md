@@ -2,14 +2,14 @@
 
 [recipe-checklist.pdf](Design%20Recipes%20258abca055214ca1958db4094b094232/recipe-checklist.pdf)
 
-| Core Recipes | Data Driven  |  Control Driven  | Abstraction |
-| --- | --- | --- | --- |
-| How to Design Functions (HtDF) | Data Driven -Templates
- | Function Composition | From Examples |
-| How to Design Data (HtDD) | 2 One-of Data | Backtracking Search | From Type Comments |
-| How to Design Worlds (HtDW) |  | Generative Recursion |  |
-|  |  | Accumulators | Using Abstract Functions |
-|  | Template Blending | Template Blending |  |
+| Core Recipes                   | Data Driven            | Control Driven       | Abstraction              |
+| ------------------------------ | ---------------------- | -------------------- | ------------------------ |
+| How to Design Functions (HtDF) | Data Driven -Templates |
+| Function Composition           | From Examples          |
+| How to Design Data (HtDD)      | 2 One-of Data          | Backtracking Search  | From Type Comments       |
+| How to Design Worlds (HtDW)    |                        | Generative Recursion |                          |
+|                                |                        | Accumulators         | Using Abstract Functions |
+|                                | Template Blending      | Template Blending    |                          |
 
 # **How To Design Functions (HtDF)**
 
@@ -172,15 +172,15 @@ The first step of the recipe is to identify the inherent structure of the inform
     
 - and therefore the **structure of much of the final program design**.
 
-| When the form of the information to be represented... | Use a data definition of this kind |
-| --- | --- |
-| is atomic | Simple Atomic Data |
-| is numbers within a certain range | Interval |
-| consists of a fixed number of distinct items | Enumeration |
-| is comprised of 2 or more subclasses, at least one of which is not a distinct item | Itemization |
-| consists of two or more items that naturally belong together | Compound data |
-| is naturally composed of different parts | References to other defined type |
-| is of arbitrary (unknown) size | self-referential or mutually referential |
+| When the form of the information to be represented...                              | Use a data definition of this kind       |
+| ---------------------------------------------------------------------------------- | ---------------------------------------- |
+| is atomic                                                                          | Simple Atomic Data                       |
+| is numbers within a certain range                                                  | Interval                                 |
+| consists of a fixed number of distinct items                                       | Enumeration                              |
+| is comprised of 2 or more subclasses, at least one of which is not a distinct item | Itemization                              |
+| consists of two or more items that naturally belong together                       | Compound data                            |
+| is naturally composed of different parts                                           | References to other defined type         |
+| is of arbitrary (unknown) size                                                     | self-referential or mutually referential |
 
 ## Simple Atomic Data
 
@@ -694,9 +694,9 @@ and the step-by-step construction of the template for a function operating on C
         [Q A]))
 
 ;; Template rules used:
-;;  - one of: 2 cases | Clock is a one of type with two subclasses (one of which is not distinct making it an itemization). The one of rule tells us to use a cond. The cond needs one clause for each subclass of the itemization. |
-| --- | --- |
-| (define (fn-for-clock c)
+| ;;  - one of: 2 cases    | Clock is a one of type with two subclasses (one of which is not distinct making it an itemization). The one of rule tells us to use a cond. The cond needs one clause for each subclass of the itemization. |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| (define (fn-for-clock c) |
   (cond [(number? c) (... c)]
         [Q A]))
 
@@ -840,13 +840,13 @@ World program design is divided into two phases, each of which has sub-parts:
     
     Identify which big-bang options the program needs.
     
-    | If your program needs to: | Then it needs this option: |
-    | --- | --- |
-    | change as time goes by (nearly all do) | on-tick |
-    | display something (nearly all do) | to-draw |
-    | change in response to key presses | on-key |
-    | change in response to mouse activity | on-mouse |
-    | stop automatically | stop-when |
+    | If your program needs to:              | Then it needs this option: |
+    | -------------------------------------- | -------------------------- |
+    | change as time goes by (nearly all do) | on-tick                    |
+    | display something (nearly all do)      | to-draw                    |
+    | change in response to key presses      | on-key                     |
+    | change in response to mouse activity   | on-mouse                   |
+    | stop automatically                     | stop-when                  |
     
     (There are several more options to big-bang. Look in the DrRacket help desk under big-bang for a complete list.)
     
