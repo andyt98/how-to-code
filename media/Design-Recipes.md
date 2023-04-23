@@ -1,6 +1,6 @@
 # Design Recipes
 
-[recipe-checklist.pdf](Design%20Recipes%20258abca055214ca1958db4094b094232/recipe-checklist.pdf)
+[recipe-checklist.pdf](recipe-checklist.pdf)
 
 | Core Recipes | Data Driven  |  Control Driven  | Abstraction |
 | --- | --- | --- | --- |
