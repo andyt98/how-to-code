@@ -2392,7 +2392,7 @@ fold is the abstract function for the (listof X) type, based on its template--so
 
 ![Untitled](media/Untitled%2012.png)
 
-![Untitled](media/7%20Mutual%20Reference%2002e10d69bb2b42bc83711cbe32d4c91a/Untitled.png)
+![Untitled](media/Untitled%2054.png)
 
 ```racket
 ; PROBLEM:
