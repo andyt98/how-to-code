@@ -9,9 +9,9 @@ Links:
 - https://www.edx.org/course/how-to-code-complex-data 
 - https://htdp.org/2022-8-7/Book/index.html
 
-[Design Recipes](media/design-recipes.md)
+[Design Recipes](media/Design-Recipes.md)
 
-## **BSL**
+## **BSL - Beginning Student Language**
 
 ### Expressions
 
