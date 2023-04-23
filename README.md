@@ -1537,7 +1537,7 @@ Arbitrary-size in two dimensions requires two cycles in the type reference graph
 
 Searching an arbitrary-arity tree for the first element to have a given property leads to a backtracking traversal of the tree.
 
-![Untitled](media/7%20Mutual%20Reference%2002e10d69bb2b42bc83711cbe32d4c91a/Untitled.png)
+![Untitled](media/Untitled%2054.png)
 
 ```racket
 (require 2htdp/image)
