@@ -1,4 +1,8 @@
-# How to Code
+# How to Code - Notes
+
+Note: To run the programs, download DrRacket.
+
+This is a repository with code and notes from the How to Code courses.
 
 Links:
 - https://www.edx.org/course/how-to-code-simple-data
@@ -4794,7 +4798,7 @@ In summary, **`pick-max`** is a function that selects the room with the maximum 
 - invader speed
 - invader movement angle
 
-### Changing**:**
+### Changing:
 
 - tank x coordinate
 - missile coordinates
