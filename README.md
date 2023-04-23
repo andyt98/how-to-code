@@ -528,7 +528,7 @@ true              ;so entire or produces true
 - invader speed
 - invader movement angle
 
-### Changing**:**
+### Changing:
 
 - tank x coordinate
 - missile coordinates
@@ -1413,7 +1413,7 @@ Arbitrary-size in two dimensions requires two cycles in the type reference graph
 (define D6 (make-elt "D6" 0 (list D4 D5)))
 ```
 
-![Untitled](media/7%20Mutual%20Reference%2002e10d69bb2b42bc83711cbe32d4c91a/Untitled.png)
+![Untitled](media/Untitled54.png)
 
 ![Untitled](media/Untitled%207.png)
 
