@@ -1,11 +1,11 @@
 # How to Code
 
 Links: 
-https://www.edx.org/course/how-to-code-simple-data 
-https://www.edx.org/course/how-to-code-complex-data                
-https://htdp.org/2022-8-7/Book/index.html
+- https://www.edx.org/course/how-to-code-simple-data 
+- https://www.edx.org/course/how-to-code-complex-data                
+- https://htdp.org/2022-8-7/Book/index.html
 
-[Design Recipes](Design%20Recipes%20258abca055214ca1958db4094b094232.md)
+[Design Recipes](Design%20Recipes.md)
 
 ## **BSL**
 
@@ -41,7 +41,7 @@ Example:
 
 An expression that starts with an open parenthesis and an primitive operator is called **call to a primitive**
 
-![Untitled](Untitled.png)
+![Untitled](images/Untitled.png)
 
 To evaluate  a primitive call:
 
